@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(183, 179, 204);
+}
+
+ul {
+    max-width: 50;
+    list-style-type: none;
+    
+}
+
+li{
+  
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 60px;
+    margin: 20px;
+}
+
+.navbar {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+li a {
+    display: block;
+   
+}
+
+.intro {
+    margin: auto;
+    margin-top: 50px;
+    font-style: oblique;
+    text-align: center;
+    width: 500px;
+    outline-width: 3px;
+    outline-color: black;
+    outline-style: solid;
+}
+.ewanimg1 {
+    width: 225.38px;
+    height: 300px;
+    margin: auto;
+}
+
+.imginewanimg1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.desctext {
+    padding: 55px;
+}

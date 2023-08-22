@@ -5,25 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="firstcss.css" rel="stylesheet">
+    <link href="firstcss.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="secondcss.css" rel="stylesheet">
 </head>
 <body>
-    <p>webdev is great</p>
-    <div class="intro">
-        <h1>Contact</h1>
-    </div>
-    <div class="navbar"> 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="page2.html">work</a></li>
-            <li><a href="page3.html">about</a></li>
-            <li><a href="page4.html">contact</a></li>
-        </ul>
-    </div>
-    <div class="ewanimg1">
-        <div class="imginewanimg1">
-            <img src="ewan.jpg">
+    <div class="triangle-top"></div>
+        <div class="container bild-strichfigur">
+            <img src="arm-nach-oben.avif" alt="Strichmaennchen Arm nach oben">
+        </div>
+            <ul class="nav nav-underline">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+
+                <div id="carouselExampleAutoplaying" class="carousel slide picture-reel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active pic-1">
+                        <img src="projects.jpg" class="d-block w-100" alt="Platzhalterbild1">
+                    </div>
+                    <div class="carousel-item pic-2">
+                        <img src="hobbies.jpg" class="d-block w-100" alt="Platzhalterbild2">
+                    </div>
+                    <div class="carousel-item pic-3">
+                        <img src="fliegen.jpg" class="d-block w-100" alt="Platzhalterbild3">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            
+    <!--<div class="container">
+        
+        <div class="row text-uppercase">
+            <div class="col-sm-4 firstpic">q</div>
+            <div class="col-sm-4"><h1>hallo</h1></div>
+            <div class="col-sm-4">e</div>
         </div>
     </div>
+    <div class="absolutetest">j</div> -->
+    
+    
+   <!-- JQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <div class="triangle-bottom"></div>
 </body>
 </html>
